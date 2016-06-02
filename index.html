@@ -1,0 +1,689 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Proyecto</title>
+
+<!--Grupo CSS-->
+<link rel="stylesheet" href="css/proyecto.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript"></script>
+<!--Estilo-->
+<style>
+h2 {
+	text-align:center;
+	font-family: Berlin Sans FB;
+}
+
+h3 {
+	text-align: center;
+}
+
+img {
+	border-radius: 8%;
+}
+
+.subtiulo {
+	text-align:center;
+	font-family: Berlin Sans FB;
+}
+
+#contacto {
+	text-align: center;
+	border-radius: 5%;
+	max-width: 70%;
+	background-color: rgba(255,255,255,0.4);
+	margin:0 auto;
+	}
+	
+.galery {
+	background-color: #000000;
+	border-radius: 5%;
+	padding: 1%;
+}
+	
+.galery img {
+	opacity: 0.35;
+	transform: scale(0.7);
+	transition: all 0.5s linear;
+	border: 5px solid #FFF;	
+}
+
+.galery img:hover {
+	transform: scale(0.9);
+	opacity: 1;
+}
+
+.datos {
+	font-size: 160%;
+	font-weight: bold;
+}
+
+.div-datos {
+	margin-top: 5%;
+}
+
+.hola {
+}
+</style>
+</head>
+
+<body>
+  <div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+      <h1 id="titulo">CBTis 16</h1>
+    </div>
+    <div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>CBTis 16</h2>
+      </a>
+    </li>
+  </ul>
+</div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="a" class="colapsable">
+        <h1>¿Que es la DGETI?</h1>
+          <div>
+          <h2>¿Que es la DGETI?</h2>
+          <img src="imagenes/dgeti.jpg" width="100%" height="auto" align="center">
+         La Dirección General de Educación Tecnológica Industrial es una dependencia adscrita a la Subsecretaría de Educación Media Superior (SEMS), dependiente de la Secretaría de Educación Pública que ofrece el servicio educativo del nivel medio superior tecnológico. El 16 de Abril de 1971 es publicado en el Diario Oficial de la Federación el acuerdo presidencial por el que se modifica la estructura orgánica administrativa de la SEP y se da paso a la creación de la DGETI, en agosto de ese mismo año se publican las funciones que tendrá esta institución y se integran a ella los centros de capacitación para el trabajo industrial, escuelas tecnológicas industriales, los centros de estudios tecnológicos en el Distrito Federal y los centros de estudios tecnológicos foráneos.
+Actualmente la DGETI es la institución de educación media superior tecnológica más grande del país, con una infraestructura física de 442 planteles educativos a nivel nacional, de los cuales 168 son CETIS y 274 CBTIS; ha promovido además la creación de al menos 288 CECyTEs, mismos que operan bajo un sistema descentralizado. Tiene por objetivo formar bachilleres técnicos y técnicos profesionales que desarrollen, fortalezcan y preserven una cultura tecnológica y una infraestructura industrial y de servicios que coadyuven a satisfacer las necesidades económicas y sociales del país. Misión Formar ciudadanos con las habilidades, conocimientos y actitudes requeridas para propiciar y participar en una sociedad del conocimiento, tanto en el ámbito laboral como social. Lo anterior en un contexto de equidad, flexibilidad, integralidad y apertura, que coadyuve a satisfacer las necesidades sociales y económicas del país. Visión Ser una institución que proporcione formación integral y pertinente de acuerdo a las exigencias derivadas de la competitividad mundial, del entorno y vocación local, además de tener la flexibilidad para satisfacer los intereses, aspiraciones y posibilidades de la población que demanda este nivel educativo en nuestros diferentes planteles.
+          </div>
+        </div>
+      </div> 
+      
+   <!--Listas--> 
+    
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Tecnico en Programacion</h2>
+    <p class="subtiulo">Se muestran las Competencias Profesionales y el Mapa Curricular</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Perfil de Egreso</h2>
+      <p class="subtiulo">Se muestra el perfil de egreso de Tecnico en Programacion</p>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+<div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="a">
+        <h1>Oportunidades de Insercion Laboral</h1>
+          <div>
+            <ul>
+              <li>
+                Desarrolladores de software
+              </li>
+              <li>
+                Analistas de sistemas
+              </li>
+              <li>
+                Analista de programas de cómputo
+              </li>
+              <li>
+                Edición de software y edición de software integrada con la reproducción
+              </li>
+              <li>
+                Escuelas de computación del sector privado
+              </li>
+              <li>
+                Servicios de diseño de sistemas de cómputo y servicios relacionados
+              </li>
+              <li>
+                Escuelas de computación del sector público
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Tecnico en Electricidad</h2>
+        <p class="subtiulo">Se muestran las Competencias Profesionales, el Mapa Curricular</p>
+        <p class="subtiulo">Perfil de Egreso y Oportunidades de Insercion Laboral</p>
+      </a>
+    </li>
+  </ul>
+</div>
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Tecnico en Mecanica Industrial</h2>
+        <p class="subtiulo">Se muestran las Competencias Profesionales, el Mapa Curricular</p>
+        <p class="subtiulo">Perfil de Egreso y Oportunidades de Insercion Laboral</p>
+      </a>
+    </li>
+  </ul>
+</div>
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Tecnico en Logistica</h2>
+        <p class="subtiulo">Se muestran el objetivo de la carrera y el perfil de egreso</p>
+      </a>
+    </li>
+  </ul>
+</div>
+ <!-- Start WOWSlider.com -->
+<iframe src="indexwow.html" style="width:700px;height:220px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block; margin-top:4%;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Galeria</h2>
+      </a>
+    </li>
+  </ul>
+</div>
+  
+<div id="contacto">  
+  <h2>Contacto:</h2>
+  <p>Director: Ramos Bravo Anselmo</p>
+  <p>CCT: 21DCT0046P</p>
+  <p>Tel.: (244) 4462940</p>
+  <p>Dirección: Fracc. Ricardo Flores Magon Domicilio Conocido S/N. Atlixco, Puebla. CP 74240</p>
+  <p>Correo Electrónico: cbtis016.dir@dgeti.sems.gob.mx</p>
+</div>
+
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Elaborador Por:</h2>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<div>
+  <img src="imagenes/sep.png" width="50%" height="auto" align="left">
+  <img src="imagenes/sems.png" width="40%" height="auto" align="right">
+</div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+    <div>
+      <h4>CBTis 16</h4> 
+    </div>
+    <div>
+      <h4>Oswaldo Perez Valiente</h4>
+      <img src="res/android/mdpi.png" width="46" height="46" alt="">
+    </div>
+  </div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>TECNICO EN PROGRAMACION</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+      <img src="imagenes/img-tecnico-programacion.jpg" width="100%" height="auto" align="center">
+      <p>Persona con conocimientos, habilidades y actitudes, capaz de ingresar a empresas de desarrollo de software, diseño gráfico, mantenimiento, outsourcing.</p>
+      <h2>COMPETENCIAS PROFESIONALES</h2>
+      <img src="imagenes/competencias-profesionales.jpg" width="100%" height="auto" align="center">
+      <h2>MAPA CURRICULAR</h2>
+      <img src="imagenes/mapa-curricular.jpg" width="100%" height="auto" align="center">
+    </div>   
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Perfil de Egreso</h1>
+  </div>
+  <div data-role="content">
+    <div data-role="main" class="ui-content">
+      <h3>La formación que ofrece la carrera de Técnico en programación permite al egresado, a través de la articulación de saberes de diversos campos,        realizar actividades dirigidas a la:</h3>
+      <ul>
+        <li>
+          Instalación y desarrollo de software de aplicación utilizando programación estructurada y orientada a objetos en ambientes web y móviles, con          almacenamiento persistente de datos,
+        </li>
+        <li>
+          Así como la configuración y administración de plataforma e-learning y
+        </li>
+        <li>
+          Comercio electrónico.
+        </li>
+      </ul>
+      <h3>Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará:
+      Las siguientes competencias profesionales:</h3>
+      <ul>
+        <li>
+          Desarrolla e instala software de aplicación utilizando programación estructurada, con almacenamiento persistente de los datos
+        </li>
+        <li>
+          Desarrolla software de aplicación utilizando programación orientada a objetos, con almacenamiento persistente de los datos
+        </li>
+        <li>
+          Desarrolla aplicaciones web y móviles
+        </li>
+        <li>
+          Administra sistemas operativos, aplicaciones y servicios
+        </li>
+        <li>
+          Desarrolla, administra y configura soluciones de e – learning y comercio electrónico
+        </li>
+      </ul>
+      <h3>Y las competencias de empleabilidad y productividad:</h3>
+      <ul>
+        <li>
+          Trabajo en equipo
+        </li>
+        <li>
+          Comunicación efectiva
+        </li>
+        <li>
+          Adaptabilidad
+        </li>
+        <li>
+          Atención al proceso
+        </li>
+        <li>
+          Orientación al logro
+        </li>
+        <li>
+          Planeación y organización
+        </li>
+        <li>
+          Orientación a la mejora continua
+        </li>
+        <li>
+          Atención al cliente
+        </li>
+        <li>
+          Ética profesional
+        </li>
+      </ul>
+      <h3>El egresado de la carrera de Técnico en programación está en posibilidades de demostrar las competencias genéricas como:</h3>
+      <ul>
+        <li>
+          Escucha, interpreta y emite mensajes pertinentes en distintos contextos mediante la utilización de medios, códigos y herramientas apropiados
+        </li>
+        <li>
+          Desarrolla innovaciones y propone soluciones a problemas a partir de métodos establecidos
+        </li>
+        <li>
+         Aprende por iniciativa e interés propio a lo largo de la vida
+        </li>
+        <li>
+          Participa y colabora de manera efectiva en equipos
+        </li>
+      </ul>
+      <h3>Es importante recordar que, en este modelo educativo, el egresado de la educación media superior desarrolla las competencias genéricas a partir de la contribución de las competencias profesionales al componente de formación profesional, y no en forma aislada e individual, sino a través de una propuesta de formación integral, en un marco de diversidad.</h3>
+    
+    </div>
+       
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+</div>
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Galeria</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+      <div class="galery">
+        <img src="imagenes/img1.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img2.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img3.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img4.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img5.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img6.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img7.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img8.jpg" width="100%" height="auto" align="center">
+        <img src="imagenes/img9.jpg" width="100%" height="auto" align="center">
+      </div>
+    </div>   
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+</div>
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>CBTis 16</h1>
+  </div>
+  <div data-role="content">
+        <div data-role="collapsible" data-content-theme="a">
+          <h1>Requisitos:</h1>
+            <div>
+              <h2>Requisitos para solicitar ficha:</h2>
+              <ul>
+                <li>
+                  Constancia de estudios de ser alumnos regular de 3er. año de Secundaria
+                </li>
+                <li>
+                  Una copia de acta de Nacimiento
+                </li>
+                <li>
+                  Una copia CURP (ampliacion Tamaño Carta)
+                </li>
+                <li>
+                  Dos fotografias tamaño infantil
+                </li>
+                <li>
+                  Copia del IFE de padre o tutor
+                </li>
+                <li>
+                  Costo de ficha $_500_
+                </li>
+              </ul>
+              <div align="center">
+                <h2>Registro de aspirantes:</h2>
+                <p>Febrero 2 al 23 de junio del 2016</p>
+                <h2>Curso de Nivelacion:</h2>
+                <p>7 sabados a partir del 7 de mayo al 18 de junio del 2016 en area de Matematicas y lectura</p>
+                <h2>Examen de admision:</h2>
+                <p>24 de junio de 2016 a las 7:30 am</p>
+                <h2>Inscripciones:</h2>
+                <p>Del 6 al 12 de Julio de 2016</p>
+                <h2>Requisitos de inscripcion:</h2>
+              </div>
+                <ul>
+                  <li>
+                    Llenar solicitud de inscripcion
+                  </li>
+                  <li>
+                    Firmar carta de compromiso
+                  </li>
+                  <li>
+                    Certificado de Secundaria original y 2 copias
+                  </li>
+                  <li>
+                    C.U.R.P 2 copias
+                  </li>
+                  <li>
+                    Comprobante de domicilo 2 copias
+                  </li>
+                  <li>
+                    6 fotografias tamaño infantil. Blanco y Negro no instantaneas
+                  </li>
+                  <li>
+                    Certificado medico de buena salud con grupo sanguineo y factor RH 
+                  </li>
+                </ul>
+            </div>
+      </div>   
+    </div>
+    <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="a">
+        <h1>Espacios que ofrece</h1>
+          <div>
+            <ul>
+              <li>
+                Aulas
+              </li>
+              <li>
+              Laboratorio de Quimica
+              </li>
+              <li>
+              Laboratorio de Logisitca
+              </li>
+              <li>
+              Laboratorio de Fisica
+              </li>
+              <li>
+              Laboratorio de Computo
+              </li>
+              <li>
+              Laboratorio de Ingles
+              </li>
+              <li>
+              Taller de Programacion
+              </li>
+              <li>
+              Taller de Automatizacion
+              </li>
+              <li>
+              Biblioteca con equipo de computo con servicio a internet
+              </li>
+              <li>
+              Edifico de oficinas administrativas
+              </li>
+            </ul>
+          </div>          
+            <h2>Espacios Deportivos</h2>
+            <div>
+              <ul>
+                <li>
+                  Campo de Futbol
+                </li>
+                <li>
+                  Cancha de Voleibol
+                </li>
+                <li>
+                  Cancha de Basquetbol
+                </li>
+                <li>
+                  Plaza Civica
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div> 
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="a">
+        <h1>Oferta Educativa</h1>
+          <div>
+            <ul>
+              <li>
+                Mecánica Industrial
+              </li>
+              <li>
+                Programación
+              </li>
+              <li>
+                Electricidad
+              </li>
+              <li>
+                Logistica
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div align="center">
+        <img src="imagenes/certificacion-office.jpg" width="100%" height="auto">
+      </div>
+      <div>
+        <h2>Al concluir el Bachillerato el egresado obtendra:</h2>
+        <p class="subtiulo">(Seis semestres)</p>
+        <p>Certificado de Bachillerato, valido para continuar sus estudios en instituciones universitarias, politecnicas o tecnologicas</p> 
+        <p>Titulo y Cedula Profesional</p>
+        <p>Constancias de Competencias</p>
+      </div>
+      <div>
+        <h2>El egresado de CBTis 16 sera capaz de:</h2>
+        <p>Incorporarse al campo laboral tanto en el sector publico como en el privado </p>
+        <p>Desempeñarse de manera independiente prestando sus servicios profesionales</p>
+        <p>Responder a un imperativo de desarrollo Minicipal, Regional y Nacional</p>
+      </div>
+      <div>
+        <h2>Te Ofrecemos</h2>
+        <img src="imagenes/becas.png" width="100%" height="auto" align="center">
+        <p>Continuidad de Becas Oportunidades</p>
+        <p>Becas de Educacion Media Superior</p>
+        <p>Becas de Excelencia</p>
+        <p>Becas contra el abandono escolar</p>
+        <p>Becas Alimenticias</p>
+      </div>
+      <div data-role="main" class="ui-content">
+      <div data-role="collapsible" data-content-theme="a">
+        <h1>Ubicacion del Plantel CBTIS 16</h1>
+          <div>
+          <h2>Ubicacion</h2>
+          <img src="imagenes/ubicacion.JPG" width="100%" height="auto" align="center">
+          </div>
+        </div>
+      </div> 
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>TÉCNICO EN ELECTRICIDAD</h1>
+  </div>
+  <div data-role="content" align="">
+    <div data-role="main" class="ui-content">
+      <img src="imagenes/img-tecnico-electricidad.jpg" width="100%" height="auto" align="center">
+      <p>La carrera de Técnico en Electricidad permite al estudiante sustentar la demanda de ocupación de Técnicos Electricistas en el sector productivo y de servicios, capaz de diseñar y realizar instalaciones eléctricas residenciales y comerciales, así como proporcionar mantenimiento a máquinas eléctricas.</p>
+      <h2>COMPETENCIAS PROFESIONALES</h2>
+      <img src="imagenes/competencias-profesionales.jpg" width="100%" height="auto" align="center">
+      <h2>MAPA CURRICULAR</h2>
+      <img src="imagenes/mapa-curricular-electricidad.jpg" width="100%" height="auto" align="center">
+    </div>
+    <h2>PERFIL DE EGRESO</h2>
+    Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Electricidad.   
+    <div>
+            <ul>
+              <li>
+                Desarrolla instalaciones eléctricas residenciales y comerciales.
+              </li>
+              <li>
+                Mantiene los motores y generadores de CA y CC
+              </li>
+              <li>
+                Mantiene en operación los circuitos de control electromagnético y electrónico
+              </li>
+              <li>
+                Mantiene los sistemas de iluminación y de energía renovable.
+              </li>
+              <li>
+                Mantiene instalaciones eléctricas de media y baja tensión.
+              </li>
+            </ul>
+          </div>
+          <h2>OPORTUNIDADES DE INSERCIÓN LABORAL.</h2>
+          Todas estas competencias posibilitan al egresado su incorporación al mundo laboral o desarrollar procesos productivos independientes, de acuerdo con sus intereses profesionales o las necesidades en su entorno social.
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>TÉCNICO EN MECANICA INDUSTRIAL</h1>
+  </div>
+  <div data-role="content" align="">
+    <div data-role="main" class="ui-content">
+    <img src="imagenes/img-tecnico-mecanica.jpg" width="100%" height="auto" align="center">
+      <p>Profesionista que da mantenimiento a los sistemas de transmisión de potencia utilizando las máquinas herramientas convencionales, de control numérico, máquinas de soldar con arco eléctrico y oxigas auxiliándose de los procesos de ajuste de piezas mecánicas.</p>
+      <h2>COMPETENCIAS PROFESIONALES</h2>
+      <img src="imagenes/competencias-profesionales-mecanica.jpg" width="100%" height="auto" align="center">
+      <h2>MAPA CURRICULAR</h2>
+      <img src="imagenes/mapa-curricular-mecanica.jpg" width="100%" height="auto" align="center">
+    </div>
+    <h2>PERFIL DE EGRESO</h2>
+    Durante el proceso de formación de los cinco módulos, el estudiante desarrollará o reforzará las siguientes competencias profesionales, correspondientes al Técnico en Mecánica Industrial:   
+    <div>
+            <ul>
+              <li>
+                Suelda y ajusta piezas mecánicas.
+              </li>
+              <li>
+                Maquina piezas mecánicas en talador y torno
+              </li>
+              <li>
+               Maquina piezas mecánicas en fresadora, rectificadora y cepillo.
+              </li>
+              <li>
+                Maquina piezas mecánicas por CNC.
+              </li>
+              <li>
+                Mantiene sistemas de transmisión de potencia.
+              </li>
+            </ul>
+          </div>
+          <h2>OPORTUNIDADES DE INSERCIÓN LABORAL.</h2>
+          Industrias de transformación y procesos como: Textiles, del plástico, petroleras, metalmecánica, automotriz, pesqueras, mineras, siderúrgicas, agrícolas, alimenticia, química, de muebles, forestal, papelera, gráfica y en general todo tipo de industria de la producción y manufacturera que utilice maquinaria entre otras.
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+</div>
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>TÉCNICO EN LOGISTICA</h1>
+  </div>
+  <div data-role="content" align="">
+    <div data-role="main" class="ui-content">
+    <img src="imagenes/img-tecnico-logistica.jpg" width="100%" height="auto" align="center">
+      <h2>Objetivo de la Especialidad</h2>
+      La carrera de Tecnico en Logistica ofrece las competencias profesionales que permiten al estudiante realizar actividades dirigidas a la administracion de bienes, planificando los suministros destinados al almacenamiento de manera manual y electronica, la organizacion de los nodos logisticos para el transporte de mercancias asi como proveer los servicios y atencion al cliente sobre los movimientos y los costos de la cadena logistica
+    </div>
+    <h2>PERFIL DE EGRESO</h2>   
+    <div>
+      <ul>
+        <li>
+          Continuacion de estudios en el nivel superior en las          carreras a fines a la especialidad
+        </li>
+        <li>
+          Participar activamente en el mejoramiento de su calidad de          vida
+        </li>
+        <li>
+          Valorar el trabajo como medio para favorecer su desarrollo          personal
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-bottom:-2%;">
+</div>
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>ELABORADO POR:</h1>
+  </div>
+  <div data-role="content" align="center">
+    <div data-role="main" class="ui-content">
+      <div class="div-datos">
+        <h3 class="datos">Nombre:</h3>
+        <p>Oswaldo Perez Valiente</p>
+        &nbsp;
+        <h3 class="datos">Grado y Grupo:</h3>
+        <p >4° "E"</p>
+        &nbsp;
+        <h3 class="datos">Especialidad:</h3>
+        <p>Programacion</p>
+        &nbsp;
+        <h3 class="datos">Submodulo:</h3>
+        <p>Desarrolla Aplicaciones Moviles (DAM)</p>
+      </div>
+    </div>
+  </div> 
+  <div data-role="footer" data-theme="a" data-position="fixed">
+    <h4>Oswaldo Perez Valiente</h4>
+  </div>
+  <img src="imagenes/background-all.png" width="100%" style="margin-top:40%;margin-bottom:-2%;"> 
+</div>
+</body>
+</html>
